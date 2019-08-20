@@ -1,0 +1,35 @@
+form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+form label {
+  font-size: 1.5rem;
+}
+
+input,textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 5px;
+  border: none;
+  border-bottom: 2px solid black;
+  outline-color: #fd57bf;
+  resize: none;
+}
+
+input[type="submit"] {
+  width: initial;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  border: 1px solid black;
+
+  &:hover {
+    
+    color: black;
+    background: #eee;
+    opacity: 0.8;
+    
+  }
+}

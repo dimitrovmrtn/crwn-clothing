@@ -8,6 +8,11 @@
     margin-bottom: 25px;
     font-weight: bold;
     width: max-content;
+    transition: none;
+
+    &:hover {
+      color: grey;
+    }
   }
 
   .preview {
